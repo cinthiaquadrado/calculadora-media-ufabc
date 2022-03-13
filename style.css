@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body {
+    font-family: 'Roboto Mono', monospace;
+    background: url('https://www.redebrasilatual.com.br/wp-content/uploads/2019/09/ufabc-2.jpg');
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,121,9,1) 63%, rgba(21,121,9,1), 50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .container {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .page-title {
+    color:#ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color:#ffffff;
+    margin-top: 5px;
+  }
+
+  p {
+    font-weight: bold;
+    color: white;
+  }
+
+  button {
+      width: 110px;
+      margin: 0 auto;
+      font-weight: bold;
+  }
